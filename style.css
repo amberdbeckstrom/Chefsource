@@ -92,7 +92,7 @@ h3 {
 	font-weight: 700;
 	font-size: .9em;
 	margin: 0% 8% 0px 8%;
-	padding-top: 3%;
+	padding-top: 3.5%;
 }	
 
 p {
@@ -103,7 +103,7 @@ p {
 }
 
 footer {
-	height: 100px;
+	height: 70px;
 	width: auto;
 	position: relative;
 	top: 20px;
