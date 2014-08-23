@@ -103,10 +103,10 @@ p {
 }
 
 footer {
-	height: 120px;
+	height: 100px;
 	width: auto;
 	position: relative;
-	top: 30px;
+	top: 20px;
 	background-color: #cdedce;
 	z-index: 99;
 
