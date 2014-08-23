@@ -71,7 +71,7 @@ header {
 
 .searchbtn {
 	float:right;
-	width: 28px;
+	width: 24px;
 	margin: -25px 6px 0px 0px;
 }
 
@@ -100,6 +100,7 @@ p {
 	font-weight: 300;
 	font-size: .7em;
 	margin: 2% 8% 0px 8%;
+	color: #3c3c3c;
 }
 
 footer {
@@ -107,7 +108,7 @@ footer {
 	width: auto;
 	position: relative;
 	top: 20px;
-	background-color: #cdedce;
+	background-color: #ffffff;
 	z-index: 99;
 
 }
