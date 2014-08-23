@@ -37,17 +37,7 @@ header {
 
 
 
-h3 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
-	font-size: 1em;
-}	
 
-p {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	font-size: .7em;
-}
 
 
 
@@ -90,6 +80,20 @@ header {
 	font-family: 'Lobster', cursive;
 	font-size: 1.3em;
 	
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: .9em;
+	margin: 3% 8% 0px 8%;
+}	
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: .7em;
+	margin: 2% 8% 0px 8%;
 }
 
 footer {
