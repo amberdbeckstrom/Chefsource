@@ -37,14 +37,14 @@ header {
 
 .backarrow {
 	float:left;
-	width: 23px;
+	width: 20px;
 	margin: 12px 0px 0px 20px;
 }
 
 .searchbtn {
 	float:right;
 	width: 28px;
-	margin: -32px 20px 0px 0px;
+	margin: -25px 20px 0px 0px;
 }
 
 .navtitle {
@@ -52,9 +52,9 @@ header {
 	margin:0 auto; 
 	text-align:center;
 	color: #ffffff;
-	padding-top: 7px;
+	padding-top: 1px;
 	font-family: 'Lobster', cursive;
-	font-size: 1.7em;
+	font-size: 1.3em;
 	
 }
 
@@ -84,7 +84,7 @@ p {
 }
 
 header {
-	height: 50px;
+	height: 30px;
 	width: auto;
 	margin: 0 auto;
 	background-color: #e74c3c;
