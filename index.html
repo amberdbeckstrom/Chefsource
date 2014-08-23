@@ -28,8 +28,16 @@
 
 
 				<footer>
-					<h3>Chicken Taco</h3>
+					<div ng-show="!recipes.showActions" ng-swipe-left="recipes.showActions=true">
+					<h3>{{meal.name}}</h3>
 					<p>A tastey greek pizza with lots of sauce, red peppers, olives, basil, feta cheese, sun dried tomatoes.</p>
+					</div>
+					<div ng-show="recipes.showActions" ng-swipe-right="recipes.showActions=false">
+      					<ul class="actions">
+       						<li><button>Archive</button></li>
+        					<li><button>Trash</button></li>
+      					</ul>
+   					 </div>
 				</footer>	
 
 			</body>
@@ -41,5 +49,7 @@
 			<script src="https://cdn.firebase.com/js/client/1.0.18/firebase.js"></script>
 			<!-- AngularFire -->
 			<script src="https://cdn.firebase.com/libs/angularfire/0.8.0/angularfire.min.js"></script>
+			<script src="/bower_components/angular-touch/angular-touch.js"></script>
+
 
 	</html>
