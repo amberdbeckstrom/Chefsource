@@ -52,7 +52,7 @@ header {
 	margin:0 auto; 
 	text-align:center;
 	color: #ffffff;
-	padding-top: 1px;
+	padding-top: 3px;
 	font-family: 'Lobster', cursive;
 	font-size: 1.3em;
 	
@@ -84,7 +84,7 @@ p {
 }
 
 header {
-	height: 30px;
+	height: 34px;
 	width: auto;
 	margin: 0 auto;
 	background-color: #e74c3c;
