@@ -52,6 +52,10 @@ header {
 	max-width: 100%;
 }
 
+.mainpic {
+	height: 400px;
+}
+
 header {
 	height: 36px;
 	width: auto;
@@ -99,8 +103,17 @@ p {
 footer {
 	height: 168px;
 	width: auto;
+	position: relative;
+	background-color: #cdedce;
+	z-index: 99;
 
 }
+
+/*.box{
+	
+	width: auto;
+	height: 200px;
+}*/
 
 
 
