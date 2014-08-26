@@ -51,9 +51,11 @@ input.ng-valid {
 
 @media (max-width: 420px) and (orientation: portrait) {
 
-/*body {
+/*.logbod {
 	height: 568px;
 }*/
+
+
 
 .recipepic {
 	max-width: 100%;
@@ -133,7 +135,7 @@ p {
 
 form {
 	position: relative;
-	top: -350px;
+	top: -380px;
 	z-index: 99;
 	margin-left: auto;
 	margin-right: auto;
@@ -154,7 +156,7 @@ form {
 }
 .password {
 	position: relative;
-	margin: 3% 0% 0% 16%;
+	margin: 3% 0% 0% 14%;
 	background: rgba(255, 255, 255, .5);
 	height: 30px;
 	width: 220px;
@@ -165,7 +167,7 @@ form {
 
 .loginbtn {
 	position: relative;
-	top: -125px;
+	top: -200px;
 	z-index: 99;
 	margin: 0% 0% 0% 43%;
 	
