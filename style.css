@@ -11,12 +11,12 @@ body {
 	margin: 0 auto;
 }
 
-header {
+/*header {
 	height: 50px;
 	width: auto;
 	margin: 0 auto;
 	background-color: #e74c3c;
-}
+}*/
 
 /*.wrapper-header{
 	width: 100%;
@@ -27,13 +27,20 @@ header {
 	width: 960px;
 	height: 1200px;
 	margin: 0 auto;
-
 }
 
 /*.project {
 	height: 300px;
 	background-color: purple;
 }*/
+
+input.ng-invalid {
+	border: 1px solid red;
+}
+
+input.ng-valid {
+	border: 1px solid green;
+}
 
 
 
@@ -54,6 +61,27 @@ header {
 
 .mainpic {
 	height: 400px;
+}
+
+/*.loginpic {
+	
+	background-image: url("img/kitchen.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+
+}*/
+
+
+/*.loginpic {
+	background-image: url("img/kitchen.png");
+}*/
+
+.loginpic {
+	z-index: 1;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 header {
@@ -99,9 +127,62 @@ p {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	font-size: .7em;
-	margin: 2% 8% 0px 8%;
+	margin: 2% 8% 0% 8%;
 	color: #3c3c3c;
 }
+
+form {
+	position: relative;
+	top: -350px;
+	z-index: 99;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.username {
+	position: relative;
+	margin: 0% 0% 0% 21%;
+	background: rgba(255, 255, 255, .5);
+	height: 30px;
+	width: 220px;
+	border-style: none;
+	border-radius: 3px;
+	padding-left: 10px;
+
+	
+}
+.password {
+	position: relative;
+	margin: 3% 0% 0% 21%;
+	background: rgba(255, 255, 255, .5);
+	height: 30px;
+	width: 220px;
+	border-style: none;
+	border-radius: 3px;
+	padding-left: 10px;
+}
+
+.loginbtn {
+	position: relative;
+	top: -325px;
+	z-index: 99;
+	margin: 0% 0% 0% 43%;
+	
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	color:#ffffff;
+	width: 150px;
+	position: relative;
+	top: -455px;
+	z-index: 99;
+	margin: 0% 0% 0% 30%;
+	
+}
+
+
 
 footer {
 	height: 92px;
@@ -111,6 +192,20 @@ footer {
 	background-color: #ffffff;
 	z-index: 99;
 
+}
+
+a {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff;
 }
 
 /*.box{

@@ -9,43 +9,25 @@
 			<meta name="apple-mobile-web-app-capable" content="yes" />
 		</head>
 			<body>
-				<header>
-					<!-- <div class="wrapper-header"> -->
-						<img class="backarrow"src="img/arrow.png" alt="back arrow">
-						<h1 class="navtitle">Chef Source</h1>
-						<img class="searchbtn"src="img/search.png" alt="search button">
-					
-					<!-- </div> -->
-				</header>
-					
-				<div class='mainpic'>
-					<img class="recipepic"src="img/taco2.png" alt="recipe image">
-				</div>
+					<img class="loginpic"src="img/kitchen.png">
 
-					<!-- <div class='box'>
+					<h1>ChefSource</h1>
 
-					</div> -->
+					<form class="login">
+    					 <input class="username" type="text" ng-model="user.name" placeholder="Username" ng-maxlength="20" ng-minlength="3" required>
+   						 </br>
+
+    					 <input class="password" type="password" ng-model="user.name" placeholder="Password" ng-maxlength="20" ng-minlength="3" required>
+   			
+   						 
+    				</form>
+
+    				<a class="loginbtn" href="recipes.html">Login</a>
 
 
-				<footer>
-					<!-- <div ng-show="!recipes.showActions" ng-swipe-left="recipes.showActions=true">
-					<h3>{{meal.name}}</h3>
-					<p>A tastey greek pizza with lots of sauce, red peppers, olives, basil, feta cheese, sun dried tomatoes.</p>
-					</div>
-					<div ng-show="recipes.showActions" ng-swipe-right="recipes.showActions=false">
-      					<ul class="actions">
-       						<li><button>Archive</button></li>
-        					<li><button>Trash</button></li>
-      					</ul>
-   					 </div> -->
-   					 <div ng-show="!showActions" ng-swipe-left="showActions = true">
-  					Some list content, like an email in the inbox
-					</div>
-					<div ng-show="showActions" ng-swipe-right="showActions = false">
-  					<button ng-click="reply()">Reply</button>
-  					<button ng-click="delete()">Delete</button>
-					</div>
-				</footer>	
+
+    				
+			
 
 			</body>
 			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>

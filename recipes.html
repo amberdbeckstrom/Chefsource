@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+	<html ng-app='chefApp'>
+		<head>
+			<title>Chefs Source</title>
+			<meta name="viewport" content="width=device-width">
+			<link rel="stylesheet" type="text/css" href="normalize.css">
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link href='http://fonts.googleapis.com/css?family=Lobster|Oswald' rel='stylesheet' type='text/css'>
+			<meta name="apple-mobile-web-app-capable" content="yes" />
+		</head>
+			<body>
+				<header>
+					<!-- <div class="wrapper-header"> -->
+						<img class="backarrow"src="img/arrow.png" alt="back arrow">
+						<h1 class="navtitle">Chef Source</h1>
+						<img class="searchbtn"src="img/search.png" alt="search button">
+					
+					<!-- </div> -->
+				</header>
+					
+				<div class='mainpic'>
+					<img class="recipepic"src="img/taco2.png" alt="recipe image">
+				</div>
+
+					<!-- <div class='box'>
+
+					</div> -->
+
+
+				<footer>
+					<!-- <div ng-show="!recipes.showActions" ng-swipe-left="recipes.showActions=true">
+					<h3>{{meal.name}}</h3>
+					<p>A tastey greek pizza with lots of sauce, red peppers, olives, basil, feta cheese, sun dried tomatoes.</p>
+					</div>
+					<div ng-show="recipes.showActions" ng-swipe-right="recipes.showActions=false">
+      					<ul class="actions">
+       						<li><button>Archive</button></li>
+        					<li><button>Trash</button></li>
+      					</ul>
+   					 </div> -->
+   					 <div ng-show="!showActions" ng-swipe-left="showActions = true">
+  					Some list content, like an email in the inbox
+					</div>
+					<div ng-show="showActions" ng-swipe-right="showActions = false">
+  					<button ng-click="reply()">Reply</button>
+  					<button ng-click="delete()">Delete</button>
+					</div>
+				</footer>	
+
+			</body>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+			<script src="main.js"></script>
+			<script src="mobile.js"></script>
+
+			<!-- Firebase -->
+			<script src="https://cdn.firebase.com/js/client/1.0.18/firebase.js"></script>
+			<!-- AngularFire -->
+			<script src="https://cdn.firebase.com/libs/angularfire/0.8.0/angularfire.min.js"></script>
+			<script src="/bower_components/angular-touch/angular-touch.js"></script>
+
+
+	</html>
