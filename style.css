@@ -154,7 +154,7 @@ form {
 }
 .password {
 	position: relative;
-	margin: 3% 0% 0% 21%;
+	margin: 3% 0% 0% 16%;
 	background: rgba(255, 255, 255, .5);
 	height: 30px;
 	width: 220px;
@@ -165,7 +165,7 @@ form {
 
 .loginbtn {
 	position: relative;
-	top: -325px;
+	top: -125px;
 	z-index: 99;
 	margin: 0% 0% 0% 43%;
 	
@@ -174,11 +174,11 @@ form {
 h1 {
 	font-family: 'Lobster', cursive;
 	color:#ffffff;
-	width: 150px;
+	width: 157px;
 	position: relative;
 	top: -455px;
 	z-index: 99;
-	margin: 0% 0% 0% 30%;
+	margin: 0% 0% 0% 28%;
 	
 }
 
